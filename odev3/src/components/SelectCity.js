@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import { useCity } from "../Context/CityContext";
-import axios from "axios";
-const API_KEY = "API_KEY";
 
 function SelectCity() {
   const { city, setCity, citys } = useCity();

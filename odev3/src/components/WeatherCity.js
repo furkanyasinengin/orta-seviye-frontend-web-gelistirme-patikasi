@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useCity } from "../Context/CityContext";
-const API_KEY = "6fbb27a80c3c6c6beb57cd70c68a4f3b";
+const API_KEY = "API_KEY";
 
 function WeatherCity() {
   const { city } = useCity();
