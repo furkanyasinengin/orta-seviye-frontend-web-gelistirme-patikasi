@@ -1,0 +1,37 @@
+body {
+  background-color: rgba(181, 197, 197, 0.3);
+}
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+label {
+  font-weight: bold;
+  color: darkblue;
+}
+
+select,
+option {
+  width: 150px;
+  color: purple;
+  font-weight: bold;
+  margin-left: 5px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.days {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  padding: 0px;
+}
